@@ -1,5 +1,6 @@
 {
-  "name": "vite-react-starter",
+  "homepage": "https://xboybx.github.io/Cross-PlatformChats",
+  "name": "Cross_platform Chats",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +13,9 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.0.1"
+    "react-icons": "^5.0.1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
@@ -24,6 +27,7 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.11",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
